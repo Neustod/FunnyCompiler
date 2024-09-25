@@ -1,0 +1,9 @@
+Var a, b, c1:Integer;
+Begin
+a = 34 * 9 + (-3)
+b = a + 86;
+c = 2 + b / a;
+a = 34 * 9 + (-3;
+b = + 86;
+5 = 2 + b / a;
+End.

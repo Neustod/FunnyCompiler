@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Syntax Analisys">
+      <UniqueIdentifier>{1981f8ef-5e8b-41bc-88b4-42a85c9d072c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lexical Analisys">
+      <UniqueIdentifier>{4c283097-6fb8-4c13-b546-3b7de6afb803}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="code.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="Grammar.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="lex.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Globals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Compiler.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxAnalisys.h">
+      <Filter>Исходные файлы\Syntax Analisys</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalAnalisys.h">
+      <Filter>Исходные файлы\Lexical Analisys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxAnalisys.cpp">
+      <Filter>Исходные файлы\Syntax Analisys</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicalAnalisys.cpp">
+      <Filter>Исходные файлы\Lexical Analisys</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
